@@ -13,11 +13,18 @@ The timing of this bacterial shift suggests an intricate parasite-snail interact
 **File structure **
 
 Raw sequencing data can be downloaded from ENA under bioproject PRJEB77058: https://www.ebi.ac.uk/ena/browser/view/PRJEB77058
+
 The associated metadata can be found in the file: Datafiles ENA upload Temporal signal paper.xlsx
+
 The assocaited bacterial load (ng) as determined by qPCR can by found in the file: qPCR.xlsx
+
 The raw phyloseq object which has not been cleaned can be found here: phyloseq_temporal.rds
+
 The  phyloseq object which has  been cleaned by removing contaminants: phyloseq_temporal_cleaned.rds
+
 The phyloseq object which has been cleaned by removing up to and including tripletons per sample can be found here: phyloseq_temporal_trip.rds
+
 The phyloseq object which has been cleaned by removing up to and including tripletons per sample and has been rarefied and averaged across 100 rarefaction events can be found here: phyloseq_temporal_100averageRarefied.rds
+
 The Rscript used to produce all figures and analysis of the manuscript can be found here: Rscript_microbiome_dynamics_in_the_snail_Biomphalaria_glabrata.R
   Please adapt the directory to your specifications.
